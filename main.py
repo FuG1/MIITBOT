@@ -10,7 +10,7 @@ from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-bot = Bot(token="7107162337:AAHqR9aQMho7onaKMl06Obo2d78pfhL-p7k")
+bot = Bot(token="your_token")
 dp = Dispatcher(bot, storage=MemoryStorage())
 dp.middleware.setup(LoggingMiddleware())
 
